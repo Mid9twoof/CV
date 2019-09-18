@@ -1,0 +1,58 @@
+
+
+body{
+  background-color: #d9eeec;
+}
+hr{
+border: none;
+width: 100px;
+border-top: 5px dotted;
+}
+
+h1{
+
+}
+
+button{
+  padding:3px;
+  border-width: 2px;
+  border-color: #51dacf;
+  background-color: #41aaa8;
+
+display: inline;
+
+}
+.links{
+  text-decoration: none;
+  color: black;
+
+}
+.tabs{
+  display: table;
+  margin: auto;
+
+}
+.game2{
+  background-color: red;
+}
+.game3{
+  background-color: blue;
+}
+.smite{
+background-color: black;
+text-align: center;
+text-decoration-color: red;
+
+}
+.gaurdimg{
+  position: relative;
+  margin: auto;
+height: 300px;
+
+}
+.smiteimg{
+
+}
+.smitetext{
+  color: red;
+}
