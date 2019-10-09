@@ -3,56 +3,49 @@
 body{
   background-color: #d9eeec;
 }
-hr{
-border: none;
-width: 100px;
-border-top: 5px dotted;
-}
 
 h1{
+text-align: center;
+}
+
+h4{
+  display: table;
+  margin: auto;
+}
+
+h6{
+  display: table;
+  margin: auto;
+}
+
+hr{
+border-style: dotted;
+border-width: 4px;
+}
+
+
+
+.contactinfo{
+  text-align: right;
+
 
 }
 
-button{
-  padding:3px;
-  border-width: 2px;
-  border-color: #51dacf;
-  background-color: #41aaa8;
 
-display: inline;
-
-}
-.links{
-  text-decoration: none;
-  color: black;
-
-}
-.tabs{
+.proimg{
+  border-radius: 50%;
+  width: 125px;
   display: table;
   margin: auto;
 
 }
-.game2{
-  background-color: red;
-}
-.game3{
-  background-color: blue;
-}
-.smite{
-background-color: black;
-text-align: center;
-text-decoration-color: red;
 
+.aboutme{
+  text-align: center;
 }
-.gaurdimg{
-  position: relative;
-  margin: auto;
-height: 300px;
 
-}
-.smiteimg{
+.tborder{
+  border: 1px;
+  border-style: double;
 
-}
-.smitetext{
-  color: red;
 }

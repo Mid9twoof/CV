@@ -4,38 +4,80 @@
 <head>
   <meta charset="utf-8">
   <title>Joey's Website</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+
 
 </head>
 
 <body>
-  <div class="tabs">
-    <button type="button" name="Home"> <a class="links"href="index.html">Home</a> </button>
-    <button type="button" name="Home"> <a class="links" href="Games.html">Games</a> </button>
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href=""></a>
+  </nav>
+
+
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-md-2 mr-auto">
+        <img src="img/Joey.jpg" alt="Joey" class="proimg">
+      </div>
+      <div class="col-md-3 col-sm-6 mr-auto ml-auto ">
+        <h1>
+          Joey <br> Memmott
+        </h1>
+      </div>
+      <div class="col-md-3 col-sm-6 ml-auto contactinfo">
+        <h4>
+          Contact info
+        </h4>
+        <h6>
+          Cell:385-290-0004
+        </h6>
+        <h6>
+          Email:1pdkm1@gmail.com
+        </h6>
+        <h6>
+          <a href="Files/Resume.docx" download>My Resume</a>
+        </h6>
+      </div>
+    </div>
+
   </div>
 
-  <table cellspacing="20">
-    <tr>
-      <td><img src="img/Joey.jpg" alt="Joey" height="300" width="240"></td>
-      <td>
-        <center>
-          <h1>
-            Joey Memmott
-          </h1>
-          <p><em>Lead Upper Limb After Sales Service Tech</em></p>
-        </center>
-        <p>I am a problem solver. I like issues because they create a challenge to find a solution. I am a gamer and a full time dad to a beautiful girl. </p>
-      </td>
-      <td>Cell-385-290-0004<br />
-        Email-1pdkm1@gmail.com<br />
-        <a href="Files/Resume.docx" download>Resume</a>
-      </td>
-    </tr>
-  </table>
   <hr>
-  <h2><em>
+
+  <div class="container">
+    <div class="row">
+      <div class="col aboutme">
+        <h2>
+          About Me
+        </h2>
+      </div>
+      <div class="row">
+        <div class="aboutme ml-auto rl-auto">
+          <h5>
+            I am a problem solver. I like issues because they create a challenge to find a solution. I am a gamer and a full time dad to a beautiful 4 year old girl.
+          </h5>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <hr>
+
+  <h2>
+    <em>
       <center>Skills</center>
-    </em></h2>
+    </em>
+  </h2>
   <table cellspacing="10">
     <tr>
       <td>
@@ -53,7 +95,7 @@
       <td>
         <ul>
           <li>Mya proficient</li>
-          <li>Python,Javascript,CSS,HTML,C++ Basics</li>
+          <li>Python,Javascript,CSS,HTML,C++,bootstrap Basics</li>
           <li>Out of the box thinker</li>
           <li>I know how to drive:</li>
           <li type=circle>Forklift</li>
@@ -71,6 +113,9 @@
       </center>
     </em> </h2>
   <table cellspacing"0">
+    <tbody>
+
+
     <tr>
       <td colspan="2">Jordan High School, Sandy, Utah-2011</td>
     </tr>
@@ -112,59 +157,78 @@
       <td><a href="https://www.sololearn.com/Certificate/1014-4626972/pdf/">HTML Fundamentals</a>
       </td>
     </tr>
+    </tbody>
   </table>
   <hr>
-  <h2><em>
+  <h2>
+    <em>
       <center>
         Work History
       </center>
-    </em></h2>
-  <table cellspacing="20">
-    <tr>
-      <thead>
-        <td>Start Date</td>
-        <td>End Date</td>
+    </em>
+  </h2>
+    <div class="containter">
+      <div class="row">
+        <div class="col">
+          <table class="ml-auto mr-auto" cellspacing="20">
+            <tr>
+              <thead>
+                <td class="tborder">Start Date</td>
+                <td class="tborder">End Date</td>
 
-        <td>Work</td>
-      </thead>
-      <tbody>
-        <tr>
-          <td>June 2014</td>
-          <td>Present</td>
-          <td>Company: Ottobock<br />
-            Job Title: Lead After Sales Service Tech<br />
-            Dudes:<br />
-            -Preform proper incoming and outgoing tests.<br />
-            -Record and keep proper notation on what I am doing as well as any contact with the customer.<br />
-            -Process and test returns<br />
-            -Process jobs coming back from Vienna and Duderstadt.<br />
-            -Keep area organized and neat as well proved improvement ideas as necessary.<br />
-            -Keep up to date on changes made in both myo and axon family.<br />
-            -Test and fix loaners as well as post them into the proper location.<br />
-            -Improve the upper limb department as well develop the team<br />
-            -Set meetings and run meetings in a productive and efficient manor<br />
-            -Manage workload to see to it that all needed tasks get accomplished.<br />
-          </td>
-        </tr>
-        <tr>
-          <td>June 2017</td>
-          <td>Present</td>
-          <td>Company: Dominos<br />
-            Job Title: Delivery Driver<br />
-            Dudes: <br />
-            -Deliver pizza in a safe and timely manor<br />
-            -Clean the store<br />
-            -Make orders and help customers.<br />
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-        </tr>
-      </tbody>
-    </tr>
-  </table>
+                <td class="tborder">Work</td>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tborder">June 2014</td>
+                  <td class="tborder">Present</td>
+                  <td class="tborder"><strong>Company:</strong> Ottobock<br />
+                    <strong>Job Title:</strong> Lead After Sales Service Tech<br />
+                    <strong>Dudes:</strong><br />
+                    -Preform proper incoming and outgoing tests.<br />
+                    -Record and keep proper notation on what I am doing as well as any contact with the customer.<br />
+                    -Process and test returns<br />
+                    -Process jobs coming back from Vienna and Duderstadt.<br />
+                    -Keep area organized and neat as well proved improvement ideas as necessary.<br />
+                    -Keep up to date on changes made in both myo and axon family.<br />
+                    -Test and fix loaners as well as post them into the proper location.<br />
+                    -Improve the upper limb department as well develop the team<br />
+                    -Set meetings and run meetings in a productive and efficient manor<br />
+                    -Manage workload to see to it that all needed tasks get accomplished.<br />
+                    -Manage the uppers limb team and keep team members motivated and on task.<br />
+
+                  </td>
+                </tr>
+                <hr>
+                <tr>
+                  <td class="tborder">June 2017</td>
+                  <td class="tborder">Present</td>
+                  <td class="tborder"> <strong>Company:</strong>  Dominos<br />
+                    <strong>Job Title:</strong> Delivery Driver<br />
+                    <strong>Dudes:</strong> <br />
+                    -Deliver pizza in a safe and timely manor<br />
+                    -Clean the store<br />
+                    -Make orders and help customers.<br />
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                </tr>
+              </tbody>
+            </tr>
+          </table>
+
+        </div>
+
+      </div>
+
+    </div>
 
 
+  <!-- js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
 </body>
